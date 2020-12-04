@@ -4,7 +4,7 @@
 
 int main() {
 	setlocale(LC_ALL, "portuguese");
-	int A,B,RES;
+	int A,B;
 	printf("Informe o primeiro valor\n");
 	scanf("%i",&A);
 	printf("\nInforme o segundo valor\n");
