@@ -13,8 +13,11 @@ int main() {
 	if(A>B) {
 		printf("\nO número maior é: %i\n",A);
 	}
-	else {
+	else if(B>A) {
 		printf("\nO número maior é: %i\n",B);
+	}
+	else {
+		printf("\nOs valores informados são iguais\n");
 	}
 	system("pause");
 }
